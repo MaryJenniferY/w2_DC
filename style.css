@@ -1,0 +1,167 @@
+ul{
+    padding: 0;
+}
+
+nav{
+    position:absolute;
+    width: 100%;
+    margin-top: 20px;
+}
+
+nav a{
+    color: #ff9d54ff;
+    font-weight: 500;
+}
+
+nav ul{
+    margin-left: 50px;
+}
+
+.dash{
+    background: #ff9d54ff;
+    width: 35px;
+    height: 3px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.con .title, .title{
+    display: inline-block;
+    font-family: serif;
+    color: #999;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.con h1{
+    font-family: serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.con p, p{
+    color: #555;
+    font-size: 16px;
+    font-family: 'Averia Serif Libre', cursive;
+    margin: 25px 0;
+}
+
+.con button, .page2 button{
+    background: white;
+    border: solid 1px #aaa;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.con img{
+    margin: 0 auto;
+}
+
+.con .r2{
+    margin-top: 50px;
+}
+
+
+.r2 li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.r2 li:hover, .page1 li:hover {
+    color: deeppink;
+}
+
+.links{
+    float: left;
+}
+
+.p1img{
+    justify-content:flex-end;
+}
+
+@media only screen and (max-width: 768px){
+    .p1img{
+    justify-content:center;
+        
+}
+    
+    .bcon{
+        margin: 0 auto;
+    }
+    
+    .con2{
+        float: none;
+    }
+}
+
+/*ppage 1*/
+
+.page1 li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 7px;
+    font-weight: 600;
+    float: right;
+}
+
+.pt{
+    margin: 10px ;
+    padding: 0;
+}
+
+.pt1{
+    padding: 0 10px 10px;
+ }
+
+/*blog*/
+
+.page2 h2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bcon{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.page2 img{
+    margin: 0 auto; 
+}
+
+.con2{
+    float: right;
+}
+
+/*contact*/
+
+.ccon{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.page3 h2, .page3 h1{
+    width: 95%;
+    margin: 10 auto;
+}
+
+.page3 button{
+    
+    font-size: 20px;
+    color: white;
+    background: black;
+    padding: 5px 30px;
+    border-radius: 100px;
+}
+
+footer{
+    margin: 90px 0 30px;
+    color: #999;
+    font-size: 14px;
+}
